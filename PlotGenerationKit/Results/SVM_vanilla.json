@@ -1,0 +1,106 @@
+{
+    "MEDIUM": {
+        "MEDIUM": {
+            "accuracy": 0.9988100829810551,
+            "precision": 1.0,
+            "recall": 0.9794037940379406,
+            "f1": 0.9895459907537332
+        },
+        "VERY_LOW": {
+            "accuracy": 0.9996379726468224,
+            "precision": 1.0,
+            "recall": 0.9933333333333334,
+            "f1": 0.9966422326361594
+        },
+        "LOW": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "HIGH": {
+            "accuracy": 0.9993698802772524,
+            "precision": 1.0,
+            "recall": 0.9897435897435897,
+            "f1": 0.9948350227239018
+        }
+    },
+    "VERY_LOW": {
+        "MEDIUM": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "VERY_LOW": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "LOW": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "HIGH": {
+            "accuracy": 0.9999155761924862,
+            "precision": 0.9975903614457832,
+            "recall": 1.0,
+            "f1": 0.9987878787878787
+        }
+    },
+    "LOW": {
+        "MEDIUM": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "VERY_LOW": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "LOW": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "HIGH": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        }
+    },
+    "HIGH": {
+        "MEDIUM": {
+            "accuracy": 0.9996691871455575,
+            "precision": 1.0,
+            "recall": 0.9958823529411762,
+            "f1": 0.9979316071156744
+        },
+        "VERY_LOW": {
+            "accuracy": 0.9999709006256364,
+            "precision": 0.9995983935742973,
+            "recall": 1.0,
+            "f1": 0.9997985901309164
+        },
+        "LOW": {
+            "accuracy": 0.9998475398475397,
+            "precision": 0.9998188405797102,
+            "recall": 0.9981785063752279,
+            "f1": 0.9989959314695237
+        },
+        "HIGH": {
+            "accuracy": 0.9975826972010179,
+            "precision": 0.9987608220840717,
+            "recall": 0.9728997289972903,
+            "f1": 0.9856290584620055
+        }
+    }
+}

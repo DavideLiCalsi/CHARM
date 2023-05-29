@@ -1,0 +1,114 @@
+{
+    "VERY_LOW": {
+        "HIGH": [
+            "DWT_EXCCNT",
+            "DWT_FOLDCNT",
+            "EXC_stim"
+        ],
+        "MEDIUM": [
+            "DWT_EXCCNT",
+            "DWT_FOLDCNT",
+            "EXC_stim"
+        ],
+        "LOW": [
+            "DWT_EXCCNT",
+            "DWT_FOLDCNT",
+            "EXC_stim"
+        ],
+        "VERY_LOW": [
+            "DWT_EXCCNT",
+            "DWT_FOLDCNT",
+            "EXC_stim"
+        ]
+    },
+    "LOW": {
+        "VERY_LOW": [
+            "DWT_CPICNT",
+            "DWT_EXCCNT",
+            "DWT_CYCCNT",
+            "LSU_stim",
+            "CPI_stim",
+            "FLD_stim",
+            "EXC_stim"
+        ],
+        "LOW": [
+            "DWT_LSUCNT",
+            "DWT_CYCCNT",
+            "LSU_stim",
+            "CPI_stim",
+            "FLD_stim",
+            "EXC_stim"
+        ],
+        "HIGH": [
+            "DWT_LSUCNT",
+            "DWT_EXCCNT",
+            "DWT_CYCCNT",
+            "CPI_stim",
+            "FLD_stim"
+        ],
+        "MEDIUM": [
+            "DWT_LSUCNT",
+            "DWT_CPICNT",
+            "DWT_EXCCNT",
+            "DWT_CYCCNT",
+            "DWT_FOLDCNT",
+            "LSU_stim"
+        ]
+    },
+    "MEDIUM": {
+        "VERY_LOW": [
+            "DWT_LSUCNT",
+            "DWT_CPICNT",
+            "DWT_EXCCNT",
+            "LSU_stim"
+        ],
+        "MEDIUM": [
+            "DWT_LSUCNT"
+        ],
+        "LOW": [
+            "DWT_LSUCNT",
+            "DWT_CPICNT",
+            "DWT_EXCCNT",
+            "DWT_CYCCNT",
+            "DWT_FOLDCNT",
+            "LSU_stim",
+            "FLD_stim"
+        ],
+        "HIGH": [
+            "DWT_LSUCNT",
+            "DWT_EXCCNT",
+            "DWT_FOLDCNT",
+            "LSU_stim"
+        ]
+    },
+    "HIGH": {
+        "LOW": [
+            "DWT_LSUCNT",
+            "DWT_CPICNT",
+            "DWT_EXCCNT"
+        ],
+        "HIGH": [
+            "DWT_LSUCNT",
+            "DWT_CPICNT",
+            "DWT_EXCCNT"
+        ],
+        "VERY_LOW": [
+            "DWT_LSUCNT",
+            "DWT_CPICNT",
+            "DWT_EXCCNT",
+            "DWT_CYCCNT",
+            "LSU_stim",
+            "EXC_stim"
+        ],
+        "MEDIUM": [
+            "DWT_LSUCNT",
+            "DWT_CPICNT",
+            "DWT_EXCCNT",
+            "DWT_FOLDCNT",
+            "LSU_stim",
+            "CPI_stim",
+            "FLD_stim",
+            "TIME"
+        ]
+    }
+}
