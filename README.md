@@ -13,4 +13,4 @@ There are 16 datasets in total. Each of them corresponds to one combination of t
 We tested three Binary Classifiers. 
 
 ## Plot Generation
-The test scores for each model and each preprocessing technique were gathered in the ```PlotGenerationKit/Results```.
+The test scores for each model and each preprocessing technique were gathered in the ```PlotGenerationKit/Results```. The ```PlotGenerationKit/Plots.ipynb``` notebook reads and analyzes those scores and generates the plots that you can find in our manuscript.
