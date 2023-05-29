@@ -4,6 +4,13 @@ Counters Help Against Roving Malware
 **CHARM** is a novel technique to enable interruptible Remote Attestation on low-end microcontrollers. This repo stores the codebase that was used to experimentally validate our approach.
 
 ## CHARM in a nuthsell
-Many vendors include Hardware Performance Counters (HPC) in their devices. They often consist of few hardware registers that are incremented whenever some specific event occurs. Despite being useful for debugging, we claim that it is possible to use them to capture a **trace** of the microcontroller's activity. This trace can later be used to determine whether some malicious relocations occurred at attestation time. By feeding this information to a well-trained **Binary Classifier** on the Verifier's side we can detect relocations with high accuracy.
+Many vendors include Hardware Performance Counters (HPC) in their devices. They often consist of few hardware registers that are incremented whenever some specific event occurs. Despite being useful for debugging, we claim that it is possible to use them to capture a **trace** of the microcontroller's activity. This trace can later be used to determine whether some **malicious relocations** occurred at attestation time. By feeding this information to a well-trained **Binary Classifier** on the Verifier's side we can detect relocations with high accuracy.
 
-## 
+## Datasets
+There are 16 datasets in total. Each of them corresponds to one combination of two parameters, namely **entropy level** (how unpredictable the benign applications running on your device are) and **activity level** (how many operations per unit of time the bening applications execute). Each dataset is a csv file labelled by the date in which it was acquired, and containts approximately 10k records.
+
+## Models
+We tested three Binary Classifiers. 
+
+## Plot Generation
+The test scores for each model and each preprocessing technique were gathered in the ```PlotGenerationKit/Results```.
