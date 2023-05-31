@@ -1,0 +1,34 @@
+{
+	"folders": [
+		{
+			"path": "../../Interrupts"
+		},
+		{
+			"name": "Arduino",
+			"path": ".."
+		},
+		{
+			"name": "FreeRTOS",
+			"path": "../../../../../Documenti/PlatformIO/Projects/FreeRTOS"
+		},
+		{
+			"name": "Trustzone",
+			"path": "../../../../../Documenti/PlatformIO/Projects/Trustzone"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"cmath": "cpp",
+			"hal_types.h": "c",
+			"stm32_def.h": "c",
+			"hal.h": "c",
+			"cmsis_compiler.h": "c",
+			"secure_context.h": "c",
+			"bluenrg_interface.h": "c",
+			"istream": "cpp",
+			"ostream": "cpp",
+			"stm32freertos.h": "c",
+			"freertos.h": "c"
+		}
+	}
+}

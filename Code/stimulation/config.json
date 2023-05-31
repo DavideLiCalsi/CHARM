@@ -1,0 +1,54 @@
+{
+    "target_address": "03:80:e1:00:34:12",
+    "IndustrialSensor": {
+        "target_uuids": [
+            "01c50b60-e48c-11e2-a073-0002a5d5c51b",
+            "a32e5520-e477-11e2-a9e3-0002a5d5c51b"
+        ],
+        "stress_1_param": {
+            "consecutive_reads": 20
+        },
+        "stress_2_param": {
+            "consecutive_reads": 5,
+            "num_threads": 4
+        },
+        "stress_3_param": {
+            "consecutive_connections": 5
+        }
+    },
+    "WeatherMonitor": {
+        "target_uuids": [
+            "01c50b60-e48c-11e2-a073-0002a5d5c51b",
+            "a32e5520-e477-11e2-a9e3-0002a5d5c51b"
+        ],
+        "stress_1_param": {
+            "consecutive_reads": 20
+        },
+        "stress_2_param": {
+            "consecutive_reads": 5,
+            "num_threads": 4
+        },
+        "stress_3_param": {
+            "consecutive_connections": 5
+        }
+    },
+    "PatientMonitor": {
+        "target_uuids": [
+            "43fb6ebf-1e64-4594-a130-6b14764bd399",
+            "41821a40-e477-11e2-82d0-0002a5d5c51b"
+        ],
+        "stress_1_param": {
+            "consecutive_reads": 20
+        },
+        "stress_2_param": {
+            "consecutive_reads": 5,
+            "num_threads": 4
+        },
+        "stress_3_param": {
+            "consecutive_connections": 5
+        }
+    },
+    "connect_frequency": 10.0,
+    "read_frequency": 10.0,
+    "disconnect_delay": 10.0
+}

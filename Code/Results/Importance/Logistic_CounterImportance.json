@@ -1,0 +1,107 @@
+{
+    "VERY_LOW": {
+        "VERY_LOW": [
+            "DWT_FOLDCNT",
+            "LSU_stim",
+            "TIME"
+        ],
+        "HIGH": [
+            "TIME"
+        ],
+        "MEDIUM": [
+            "TIME"
+        ],
+        "LOW": [
+            "DWT_LSUCNT",
+            "DWT_FOLDCNT",
+            "LSU_stim",
+            "CPI_stim",
+            "EXC_stim",
+            "TIME"
+        ]
+    },
+    "HIGH": {
+        "MEDIUM": [
+            "DWT_LSUCNT",
+            "DWT_EXCCNT",
+            "DWT_FOLDCNT",
+            "LSU_stim",
+            "CPI_stim",
+            "FLD_stim",
+            "EXC_stim"
+        ],
+        "LOW": [
+            "DWT_LSUCNT",
+            "DWT_EXCCNT",
+            "LSU_stim",
+            "EXC_stim",
+            "TIME"
+        ],
+        "HIGH": [
+            "DWT_LSUCNT",
+            "DWT_EXCCNT",
+            "DWT_FOLDCNT",
+            "LSU_stim",
+            "CPI_stim",
+            "FLD_stim",
+            "EXC_stim"
+        ],
+        "VERY_LOW": [
+            "DWT_LSUCNT",
+            "DWT_EXCCNT",
+            "DWT_FOLDCNT",
+            "LSU_stim",
+            "CPI_stim",
+            "FLD_stim",
+            "EXC_stim",
+            "TIME"
+        ]
+    },
+    "MEDIUM": {
+        "HIGH": [
+            "DWT_LSUCNT",
+            "DWT_EXCCNT",
+            "LSU_stim",
+            "EXC_stim",
+            "TIME"
+        ],
+        "VERY_LOW": [
+            "TIME"
+        ],
+        "MEDIUM": [
+            "DWT_LSUCNT",
+            "DWT_EXCCNT",
+            "DWT_FOLDCNT",
+            "LSU_stim"
+        ],
+        "LOW": [
+            "DWT_LSUCNT",
+            "DWT_EXCCNT",
+            "DWT_FOLDCNT",
+            "LSU_stim",
+            "CPI_stim",
+            "FLD_stim",
+            "EXC_stim"
+        ]
+    },
+    "LOW": {
+        "MEDIUM": [
+            "DWT_LSUCNT",
+            "DWT_CPICNT",
+            "DWT_EXCCNT",
+            "DWT_FOLDCNT",
+            "LSU_stim",
+            "CPI_stim",
+            "EXC_stim"
+        ],
+        "VERY_LOW": [
+            "TIME"
+        ],
+        "LOW": [
+            "TIME"
+        ],
+        "HIGH": [
+            "TIME"
+        ]
+    }
+}

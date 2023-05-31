@@ -1,0 +1,89 @@
+{
+    "VERY_LOW": {
+        "VERY_LOW": [
+            "DWT_LSUCNT",
+            "DWT_EXCCNT",
+            "DWT_CYCCNT"
+        ],
+        "HIGH": [
+            "DWT_LSUCNT",
+            "DWT_EXCCNT",
+            "DWT_CYCCNT"
+        ],
+        "MEDIUM": [
+            "DWT_EXCCNT",
+            "DWT_FOLDCNT",
+            "EXC_stim"
+        ],
+        "LOW": [
+            "DWT_EXCCNT",
+            "DWT_FOLDCNT",
+            "EXC_stim"
+        ]
+    },
+    "HIGH": {
+        "MEDIUM": [
+            "DWT_FOLDCNT",
+            "FLD_stim",
+            "EXC_stim"
+        ],
+        "LOW": [
+            "DWT_FOLDCNT",
+            "FLD_stim",
+            "EXC_stim"
+        ],
+        "HIGH": [
+            "DWT_FOLDCNT",
+            "FLD_stim",
+            "EXC_stim"
+        ],
+        "VERY_LOW": [
+            "DWT_CPICNT",
+            "DWT_EXCCNT",
+            "DWT_CYCCNT",
+            "DWT_FOLDCNT"
+        ]
+    },
+    "MEDIUM": {
+        "HIGH": [
+            "DWT_FOLDCNT",
+            "FLD_stim",
+            "EXC_stim"
+        ],
+        "VERY_LOW": [
+            "DWT_LSUCNT",
+            "DWT_CPICNT",
+            "DWT_EXCCNT"
+        ],
+        "MEDIUM": [
+            "DWT_LSUCNT",
+            "DWT_CPICNT",
+            "DWT_EXCCNT"
+        ],
+        "LOW": [
+            "DWT_CPICNT",
+            "DWT_EXCCNT"
+        ]
+    },
+    "LOW": {
+        "MEDIUM": [
+            "DWT_LSUCNT",
+            "DWT_EXCCNT"
+        ],
+        "VERY_LOW": [
+            "DWT_CPICNT",
+            "DWT_EXCCNT",
+            "DWT_CYCCNT"
+        ],
+        "LOW": [
+            "DWT_CPICNT",
+            "DWT_CYCCNT",
+            "DWT_FOLDCNT",
+            "EXC_stim"
+        ],
+        "HIGH": [
+            "DWT_LSUCNT",
+            "DWT_EXCCNT"
+        ]
+    }
+}

@@ -1,0 +1,70 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C/C++ Runner: Debug Session",
+            "type": "cppdbg",
+            "request": "launch",
+            "args": [
+                ""
+            ],
+            "stopAtEntry": false,
+            "cwd": "/home/davidelicalsi/Documents/PlatformIO/Projects/Arduino",
+            "environment": [],
+            "program": "/home/davidelicalsi/Documents/PlatformIO/Projects/Arduino/build/Debug/outDebug",
+            "internalConsoleOptions": "openOnSessionStart",
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb",
+            "externalConsole": false,
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "/home/davidelicalsi/Documents/PlatformIO/Projects/Arduino/.pio/build/nucleo_l552ze_q/firmware.elf",
+            "projectEnvName": "nucleo_l552ze_q",
+            "toolchainBinDir": "/home/davidelicalsi/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/home/davidelicalsi/.platformio/platforms/ststm32/misc/svd/STM32L552.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "/home/davidelicalsi/Documents/PlatformIO/Projects/Arduino/.pio/build/nucleo_l552ze_q/firmware.elf",
+            "projectEnvName": "nucleo_l552ze_q",
+            "toolchainBinDir": "/home/davidelicalsi/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/home/davidelicalsi/.platformio/platforms/ststm32/misc/svd/STM32L552.svd"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (without uploading)",
+            "executable": "/home/davidelicalsi/Documents/PlatformIO/Projects/Arduino/.pio/build/nucleo_l552ze_q/firmware.elf",
+            "projectEnvName": "nucleo_l552ze_q",
+            "toolchainBinDir": "/home/davidelicalsi/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/home/davidelicalsi/.platformio/platforms/ststm32/misc/svd/STM32L552.svd",
+            "loadMode": "manual"
+        }
+    ]
+}
