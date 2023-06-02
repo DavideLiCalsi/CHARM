@@ -281,13 +281,6 @@ def TestAllDatasets(model,paths,iterations,options=[]):
         matrix_f1[activity][entropy]=curr_metrics['f1']
     
     return matrix_acc, matrix_prec, matrix_rec, matrix_f1
-
-    plotter=Plotter( Path('figures') )
-
-    #plotter.PlotAllDatasets(metric_list,paths,model_type,architectural)
-    plotter.PlotAllDatasetsMatrix(matrix_acc,matrix_prec,matrix_rec, matrix_f1, model_type,options)
-    
-    return matrix_acc, matrix_prec, matrix_rec, matrix_f1
            
 def test_BoxCox(model_type,values):
     
