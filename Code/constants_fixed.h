@@ -43,7 +43,7 @@ This header file contains definition of useful constants
 //Set to 1 in order to only log data in csv format
 #define DATA_ONLY 1
 
-//Temperature treshold to activate fan
+//Temperature and humidity tresholds to activate fan. Used in old experiments, irrelevant now
 #define TEMP_THRESHOLD 22.0
 
 #define HUMIDITY_TREHSOLD 43.0

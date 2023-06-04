@@ -1,3 +1,5 @@
+# Old class to plot data. Replaced by the Plots.ipynb jupyter notebook
+
 from ast import Try
 from cProfile import label
 from curses import meta
